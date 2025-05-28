@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -63,7 +63,6 @@
 		4AB7B69428E45604003ED9BF /* MqttCocoaAsyncSocket.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB7B69028E455FD003ED9BF /* MqttCocoaAsyncSocket.xcframework */; settings = {ATTRIBUTES = (Required, ); }; };
 		4AB7B69728E45608003ED9BF /* MqttCocoaAsyncSocket.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB7B69028E455FD003ED9BF /* MqttCocoaAsyncSocket.xcframework */; settings = {ATTRIBUTES = (Required, ); }; };
 		6EC871E323A421A200F69AE8 /* CocoaMQTTSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC871E223A421A200F69AE8 /* CocoaMQTTSocket.swift */; };
-		6EC871E523A421DE00F69AE8 /* CocoaMQTTWebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC871E423A421DE00F69AE8 /* CocoaMQTTWebSocket.swift */; };
 		8225B53A227C2FC600E4DB51 /* CocoaMQTT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409977A1C1B1529006B5A6D /* CocoaMQTT.swift */; };
 		8225B53B227C2FC600E4DB51 /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409977B1C1B1529006B5A6D /* Frame.swift */; };
 		8225B53C227C2FC600E4DB51 /* CocoaMQTTMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409977C1C1B1529006B5A6D /* CocoaMQTTMessage.swift */; };
@@ -147,7 +146,6 @@
 		92445BEC2ADFBEA4009D16AB /* ThreadSafeDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92445BEB2ADFBEA4009D16AB /* ThreadSafeDictionary.swift */; };
 		92445BED2ADFBEA4009D16AB /* ThreadSafeDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92445BEB2ADFBEA4009D16AB /* ThreadSafeDictionary.swift */; };
 		92445BEE2ADFBEA4009D16AB /* ThreadSafeDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92445BEB2ADFBEA4009D16AB /* ThreadSafeDictionary.swift */; };
-		929A468C27611DAE0046F6C5 /* Starscream.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929A468827611DAE0046F6C5 /* Starscream.xcframework */; settings = {ATTRIBUTES = (Required, ); }; };
 		929A468D27611DAE0046F6C5 /* Starscream.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929A468827611DAE0046F6C5 /* Starscream.xcframework */; settings = {ATTRIBUTES = (Required, ); }; };
 		929A468E27611DAE0046F6C5 /* Starscream.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929A468827611DAE0046F6C5 /* Starscream.xcframework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
@@ -258,7 +256,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AB7B69128E455FD003ED9BF /* MqttCocoaAsyncSocket.xcframework in Frameworks */,
-				929A468C27611DAE0046F6C5 /* Starscream.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -720,7 +717,6 @@
 				9228E8B527610A4300063DF2 /* CocoaMQTT5Message.swift in Sources */,
 				8D43DE5022FAED3400D9A06B /* FramePublish.swift in Sources */,
 				9228E8B227610A4300063DF2 /* CocoaMQTT5.swift in Sources */,
-				6EC871E523A421DE00F69AE8 /* CocoaMQTTWebSocket.swift in Sources */,
 				82CF1FB022943B2100DF539A /* CocoaMQTTReader.swift in Sources */,
 				9228E8A327610A1000063DF2 /* MqttDecodePubRel.swift in Sources */,
 				9228E8C127610A7B00063DF2 /* MqttPublishProperties.swift in Sources */,
