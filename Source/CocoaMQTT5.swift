@@ -135,7 +135,9 @@ protocol CocoaMQTT5Client {
 /// MQTT Client
 ///
 /// - Note: MGCDAsyncSocket need delegate to extend NSObject
-public class CocoaMQTT5: NSObject, CocoaMQTT5Client {
+//public class CocoaMQTT5: NSObject, CocoaMQTT5Client {
+public final class CocoaMQTT5: NSObject, CocoaMQTT5Client, @unchecked Sendable {
+
 
     public weak var delegate: CocoaMQTT5Delegate?
 
